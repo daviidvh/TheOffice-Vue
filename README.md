@@ -1,6 +1,6 @@
 # vue-paso-ruta
 
-This template should help get you started developing with Vue 3 in Vite.
+Practica ambientada en TheOffice
 
 ## Recommended IDE Setup
 
