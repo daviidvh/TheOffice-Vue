@@ -75,7 +75,7 @@ function irConfiguracion(){
             <v-col>
               <v-row justify="center">
                 <v-btn color="orange" @click="infoUser(personaje.id)">Informacion</v-btn>
-                <v-btn color="orange" @click="irConfiguracion">Configuracion</v-btn>
+                <!-- <v-btn color="orange" @click="irConfiguracion">Configuracion</v-btn> -->
               </v-row>
             </v-col>
           </v-card-actions>
