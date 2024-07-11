@@ -14,17 +14,6 @@ defineProps(["nombreUsuario"]);
 
       <v-toolbar-title>Perfil de {{ nombreUsuario }}</v-toolbar-title>
 
-      <v-spacer></v-spacer>
-
-      <v-btn @click="mostrarFavoritos = false">
-        <v-v-svg-icon type="mdi" :path="path"></v-v-svg-icon>
-      </v-btn>
-      <v-btn @click="irFavoritos">
-        <v-v-svg-icon type="mdi" :path="path2"></v-v-svg-icon>
-      </v-btn>
-      <v-btn @click="irCrear">
-        <v-v-svg-icon type="mdi" :path="path3"></v-v-svg-icon>
-      </v-btn>
     </v-toolbar>
     <div>
         <UserCard :nombreUsuario="nombreUsuario" />
